@@ -121,6 +121,7 @@ func textFunc(atom Atom, args string) error {
 
 	return nil
 }
+
 func emailFunc(atom Atom, _ string) error {
 	match, err := regexp.MatchString(`^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$`, atom.Value)
 	if err != nil {
