@@ -20,7 +20,7 @@ func init() {
 func register() {
 	functions["nonil"] = noNilFunc
 	functions["nosp"] = noSpacesStartAndEnd
-	functions["sword"] = sword
+	functions["word"] = word
 	functions["txt"] = textFunc
 	functions["email"] = emailFunc
 	functions["num"] = numberFunc
